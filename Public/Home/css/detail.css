@@ -1,0 +1,111 @@
+.cp_detail_box{
+	width:1100px;
+	padding:50px;
+	background-color: #fff;
+	margin:0 auto;
+}
+.cp_sum{
+    width:750px;
+    background-color: #f5f5f5;
+    padding:30px 0;
+    margin:0 auto;
+}
+.cp_sumbox{
+    width:600px;
+    padding:30px;
+    background-color: #fff;
+    margin-left: 40px;
+}
+.cp_right{
+	width: 100px;
+    float:left;
+    height: auto;
+    line-height: 30px;
+    color: #555555;
+    margin-left: 45px;
+    padding:20px 20px;
+    background-color: #fff;
+}
+.cp_right h1{
+    height: auto;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 15px;
+}
+.design_left{
+	padding: 1px;
+    border: #CCC 1px solid;
+    float: left;
+    margin-right: 9px;
+}
+.design_left img{
+	width: 70px;
+    height: 70px;
+    display: block;
+}
+.design_name{
+	width: 290px;
+    height: 30px;
+    line-height: 30px;
+    color: #7f4698;
+    font-size: 15px;
+    font-weight: bold;
+}
+.design_msg{
+	width: 290px;
+    height: 30px;
+    line-height: 30px;
+}
+.design_msg a{
+	color: #999;
+    margin-left:8px; 
+    vertical-align:top;
+    font-size: 14px;
+}
+.cp_righta{
+    float:right;
+    padding-right: 40px;
+}
+.cp_detail p{
+    padding:5px 0;
+    font-size: 13px;
+}
+.down-btn a{
+    background: url(../img/cp_detail_button_an.png);
+    display: block;
+    text-indent: 150px;
+    font-size: 18px;
+    height: 38px;
+    line-height: 38px;
+    color: #fff;
+    margin-top: 18px;
+    background-repeat: no-repeat;
+    width:356px;
+}
+.down-btn a:hover{
+    opacity: 0.8;
+}
+.detail-box{
+	margin-top: 25px;
+	border: 1px solid #ccc;
+	padding-bottom: 20px;
+}
+.de-title{
+	width: 1098px;
+    height: 60px;
+    border-bottom: 1px solid #ccc;
+    background: #f8f8f8;
+    line-height: 60px;
+    text-indent: 20px;
+    font-size: 20px;
+}
+.de-info{
+	width: 1110px;
+    margin: 0px auto;
+    font-size: 16px;
+    line-height: 35px;
+    padding-top: 20px;
+    text-indent: 10px;
+}

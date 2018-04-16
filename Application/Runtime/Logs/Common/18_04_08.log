@@ -1,0 +1,12 @@
+[ 2018-04-08T22:36:17+08:00 ] 127.0.0.1 /moxing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003061s ]
+ERR: 无法加载模块:Moxing
+
+[ 2018-04-08T22:38:54+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+ERR: 无法加载模块:Favicon
+

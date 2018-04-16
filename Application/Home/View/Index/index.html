@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="__PUBLIC__/Home/css/public.css">
+	<link rel="stylesheet" href="__PUBLIC__/Home/css/index.css">
+</head>
+<body>
+    <div class="contain-box">
+    	<div class="top">
+			<div class="top-box clearfix">
+				<div class="top-left">
+					您好，欢迎访问专业的3d打印模型资源下载网站！
+				</div>
+			</div>
+        </div>
+		<div class="title">
+			<h1 class="container">3d打印私人订制</h1>
+		</div>
+		<div class="nav-list">
+			<ul class="container nav clearfix">
+				<li><a href="{:U('Home/Index/index')}" class="active">3D模型库</a></li>
+			</ul>
+		</div>
+		<div class="con-title">
+			<h5 class="container con-title-text">3d模型库</h5>
+		</div>
+		<div class="type-box">
+			<div class="type">
+				<div class="type-title">模型分类</div>
+				<div class="type-boxs clearfix">
+					<?php foreach ($classify_data as $key => $value) { ?>
+					    <div class="tbt-type">
+					    	<div class="tbtb_type_name">
+					    		<div class="name-fl"><?php echo $value['name'] ?></div>
+					    	</div>
+					    	<div class="tbt_type_little clearfix">
+					    		<a href="{:U('Home/info/index',array('cid'=>$value['id']))}" class="typeimg"><img src="<?php echo '/Uploads/'.$value['image']; ?>" alt=""></a>
+					    		<div class="typename">
+					    			<a href=""><?php echo $value['info'] ?></a>
+					            </div>
+					    	</div>
+					    </div>
+				    <?php } ?>
+			    </div>
+			</div>
+			
+		</div>
+    </div>	
+</body>
+<a href="{:U('Admin/Mo/add')}">添加模型</a>
+</html>
